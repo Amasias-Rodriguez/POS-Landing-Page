@@ -77,27 +77,33 @@
 }
 
 .mainup__Right{
+    height:650px;
+    padding: 30px 30px;
     background: #F2F6FF;
 }
 
 .mainup__Right--Header h1{
+    padding: 10px 0;
     font-size: 50px;
     line-height: 1.2;
 }
 
 .mainup__Right--Header p{
     font-size: 20px;
+    padding: 20px 0;
     line-height: 1.3;
 }
 
 .mainup__Right--Middle{
     display: flex;
+    gap: 2rem;
     flex-wrap: wrap;
+    padding: 30px 0;
 }
 
 .mainup__Right--Middle-left button{
     font-size: 16px;
-    padding: 15px 5px;
+    padding: 15px 10px;
     color: #FFFFFF;
     background: #267DFF;
     border: none;
@@ -109,9 +115,10 @@
 }
 
 .mainup__Right--Middle-right span{
+    font-size: 16px;
+    font-weight: 600;
     position: relative;
     top: 8px;
-    font-size: 16px;
 }
 
 .mainup__Right--Middle-right ion-icon{
@@ -119,4 +126,112 @@
     top: 13px;
     width: 20px;
     height: 20px;
+}
+
+.mainup__Right--Footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+}
+
+.mainup__Right--Footer-right img{
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.mainup__Right--Footer-right-img2{
+    position: relative;
+    right: 10px;
+}
+
+.mainup__Right--Footer-right-img3{
+    position: relative;
+    right: 20px;
+}
+
+.mainup__Right--Footer-right h4{
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.mainup__Right--Footer-left ion-icon{
+    width: 20px;
+    height: 20px;
+    padding-right: 6px;
+}
+
+.mainup__Right--Footer-left h3{
+    font-size: 18px;
+}
+
+.mainup__Right--Footer-right p{
+    font-size: 15px;
+}
+
+
+.mainup__Right--Footer-header{
+    position: relative;
+    top: 10px;
+    display: flex;
+    width: 200px;
+}
+
+.mainup__Right--Footer-left-text{
+    position: relative;
+    top: 32px;
+    width: 280px;
+}
+
+.mainup__Right--Footer-left-text h4{
+    padding: 10px 0;
+}
+
+.mainup__Right--Footer-left-text span{
+    font-size: 15px;
+}
+
+.mainup__Left{
+    position: relative;
+}
+
+
+.mainup__Left--img img{
+    width: 674.5px;
+    height: 650px;
+    position: absolute;
+    right: 0;
+}
+
+.mainup__Left--text{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10%;
+    color: #ffff;
+    padding: 20px 20px; 
+    backdrop-filter: blur(10px);
+    line-height: 1.5;
+}
+
+.mainup__Left--text-p{
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.mainup__Left--container{
+    width: 310px;
+    display: flex;
+}
+
+.mainup__Left--name-img img{
+    margin-right: 10px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.mainup__Left--name-text span{
+    font-weight: 400;
+    position: relative;
+    top: 8px;
 }
